@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.head h3 {
+  font-weight: 50;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+.head h1 {
+  font-size: 36px;
+  /* font-weight: bold; */
+  color :#393646;
+  font-family:'Alfa Slab One';
+}
+
+.head h1 span {
+  color: #ff014f;
+}
+.head h2 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #ff014f;
+}
+.head h2 span {
+  color: black;
+}
+.head p {
+  color: #878e99;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.scrollable-cards-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Membuat efek geser pada tampilan mobile */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* Menyembunyikan scrollbar di browser yang mendukung scrollbar-width */
+}
+
+.scrollable-cards-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-cards-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.card-image-container {
+  overflow: hidden;
+  height: 150px; /* Sesuaikan dengan tinggi yang diinginkan */
+}
+
+.card-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-title {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  /* font-weight: bold; */
+  font-family:'Alfa Slab One';
+}
+
+.testimonial-banner {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+  padding-top: 150px;
+}
+
+.testimonial-heading {
+  font-size: 2.5rem;
+  font-family:'Bebas Neu';
+  vertical-align: middle;
+}
+
+.icon-contact img {
+  width: 4%;
+}
+
+.reservation-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  margin: 0;
+  background-image: url("../images/reservation_bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+/* .reservation-page {
+  background-image: url("../images/reservation_bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 100px 0;
+  padding-top: 150px;
+} */
+

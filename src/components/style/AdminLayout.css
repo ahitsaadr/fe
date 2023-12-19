@@ -1,0 +1,27 @@
+/* AdminLayout.css */
+.sidebar {
+    background-color: lightgray;
+    color: black;
+    height: 100%;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar-link {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 8px; /* Menambahkan background rounded */
+    transition: background-color 0.3s ease; /* Menambahkan efek transisi */
+  }
+  
+  .sidebar-link:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4); /* Memberikan opacity saat hover */
+  }
+  
+  .sidebar-link.active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4); /* Memberikan opacity saat aktif */
+  }
+  
